@@ -9,7 +9,7 @@ export default function Table() {
           <th>Particulars</th>
           <th>HSN/SAC Code</th>
           <th>Quantity</th>
-          <th>Rates</th>
+          <th>nightRates</th>
           <th>Amount in Rs.</th>
         </tr>
       </thead>
