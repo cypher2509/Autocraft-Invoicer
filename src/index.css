@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+label{
+  margin-bottom: 0.3rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #383838;
+}
+input {
+  background-color: #f1f1f1;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.2rem;
+  margin-bottom: 0.8rem;
+}
+table{
+  border-radius: 0.4rem;
+  border-color: black;
+  width: 100%;
+}
+tr{
+  align:center;
+}
+.footer li{
+  margin : 0.5rem 0.2rem;
+}
