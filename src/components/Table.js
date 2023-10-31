@@ -1,10 +1,11 @@
 import React from 'react';
 
-export default function Table() {
+export default function Table({particulars, code, quantity,rate,total}) {
+
   return (
-    <table>
+    <table width = "100%">
       <thead>
-        <tr>
+        <tr className="bg-gray-100">
           <th>Sr No.</th>
           <th>Particulars</th>
           <th>HSN/SAC Code</th>
@@ -16,11 +17,11 @@ export default function Table() {
       <tbody>
         <tr>
           <td>1.</td>
-          <td> </td>
-          <td> </td>
-          <td> </td>
-          <td> </td>
-          <td> </td>
+          <td>{particulars}</td>
+          <td> {code}</td>
+          <td>{quantity}</td>
+          <td> {rate}</td>
+          <td>{total}</td>
         </tr>
         <tr>
           <td>2.</td>
