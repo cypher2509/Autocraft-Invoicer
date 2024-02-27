@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import {useState} from 'react'
+import {useState} from 'react';
 import './App.css';
 import Details from './components/Details';
 import Client from './components/Client';
